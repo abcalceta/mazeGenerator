@@ -6,7 +6,7 @@ var stack = [];
 
 function setup() {
 	colorMode(HSB, 100);
-	var hue = random(0, 100);
+	var hue = random(10, 90);
 	var sat = random(1, 10)*10;
 	grid = [];
 	stack = [];
@@ -28,7 +28,7 @@ function setup() {
 
 function reset(){
 	stack = [];
-	var hue = random(0, 100);
+	var hue = random(10, 90);
 	var sat = random(1, 10)*10;
 	for (var j = 0; j < rows; j++){
 		for (var i = 0; i < rows; i++){
