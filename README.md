@@ -1,0 +1,2 @@
+# mazeGenerator
+something fun
