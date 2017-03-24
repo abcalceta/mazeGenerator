@@ -1,2 +1,3 @@
-# mazeGenerator: something fun I made from a tutorial
-# ** [click here](https://abcalceta.github.io/mazeGenerator/mazeGenerator/) **
+# mazeGenerator: for fun and relaxation
+## [Recursive Backtracker](https://abcalceta.github.io/mazeGenerator/recursiveBacktracker/)
+## [Randomized Kruskal's](https://abcalceta.github.io/mazeGenerator/kruskalsMaze/)
