@@ -76,7 +76,7 @@ function reset() {
 }
 
 function draw() {
-	frameRate(15);
+	frameRate(20);
 	// noLoop();
 	// console.log(frameRate());
 	background(0,0,100);
@@ -101,7 +101,8 @@ function drawColors(cell){
 		gridPrevColor[getIndex(cell.x/w,cell.y/w)][1] = 0;
 	}
 	colorMode(RGB);
-	var newcol = lerpColor(gridPrevColor[getIndex(cell.x/w,cell.y/w)][0],cell.col,gridPrevColor[getIndex(cell.x/w,cell.y/w)][1]);
+	// var newcol = lerpColor(gridPrevColor[getIndex(cell.x/w,cell.y/w)][0],cell.col,gridPrevColor[getIndex(cell.x/w,cell.y/w)][1]);
+	var newcol = lerpColor(gridPrevColor[getIndex(cell.x/w,cell.y/w)][0],cell.col,0.3);
 	gridPrevColor[getIndex(cell.x/w,cell.y/w)][0] = newcol;
 	colorMode(HSB);
 
@@ -240,7 +241,6 @@ function randomKruskals() {
 				}
 			}
 			if(cell2){
-
 				// console.log(cell2);
 				var temp = cell2.set;
 				if (cell1.set != cell2.set){
