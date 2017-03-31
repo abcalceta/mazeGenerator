@@ -6,6 +6,10 @@ function setup(){
 	canvas.style('z-index',-1);
 }
 
+function windowResized(){
+	resizeCanvas(windowWidth,windowHeight);
+}
+
 function draw(){
 	frameRate(10);
 	background(240,240,240,10);
