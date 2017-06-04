@@ -1,9 +1,16 @@
 a{
-  font-size: 110%
+  font-size: 110%;
 }
 .btn-large {
     text-transform: none;
 }
 .col.s12 > .btn-large {
    width: 100%;
+}
+.col.s12 #extraText{
+	font-size: 90%;
+}
+
+.col.s12 h1{
+	font-size: 280%;
 }
